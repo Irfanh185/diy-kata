@@ -15,29 +15,4 @@ const joinNames = (namesObj) => {
   }
 };
 
-const newNames = [
-  {
-    name: "Bart",
-  },
-  {
-    name: "Lisa",
-  },
-  {
-    name: "Maggie",
-  },
-  {
-    name: "Irfan",
-  },
-  {
-    name: "Hina",
-  },
-  {
-    name: "Haris",
-  },
-];
-
 module.exports = joinNames;
-
-// //using a for of loop
-// for (let indexValue of arr.entries()) {
-//   console.log(indexValue)
